@@ -1,5 +1,4 @@
 - 👋 Hi, I’m MADEEVESH
 - 👀 I’m interested in learn web development
-- 🌱 I’m currently learning to code in C++
 - 💞️ I’m looking to collaborate on any project
-- 📫 How to reach me: insta:a.kiles.h
+- 📫 How to reach me: insta: a.kiles.h
