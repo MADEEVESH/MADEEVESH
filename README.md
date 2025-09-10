@@ -1,4 +1,3 @@
 - 👋 Hi, I’m MADEEVESH
-- 👀 I’m interested in learn web development
 - 💞️ I’m looking to collaborate on any project
 - 📫 How to reach me: insta: a.kiles.h
