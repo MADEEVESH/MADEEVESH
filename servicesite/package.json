@@ -1,0 +1,24 @@
+{
+  "name": "servicesite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ServiceSite Android app. Opens the live stormbreaker.live dashboard.",
+  "scripts": {
+    "test": "node --test test/plan-policy.test.js",
+    "sync": "cap sync android",
+    "assets": "capacitor-assets generate --android && node scripts/apply-adaptive-icon.js",
+    "open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.3",
+    "@capacitor/app": "8.1.2",
+    "@capacitor/core": "8.5.3",
+    "@capacitor/splash-screen": "8.0.2",
+    "@capacitor/status-bar": "8.0.4"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "3.0.5",
+    "@capacitor/cli": "8.5.3",
+    "linkedom": "0.18.12"
+  }
+}

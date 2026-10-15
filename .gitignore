@@ -1,0 +1,10 @@
+node_modules/
+servicesite/node_modules/
+servicesite/android/.gradle/
+servicesite/android/build/
+servicesite/android/app/build/
+servicesite/android/local.properties
+servicesite/android/keystore.properties
+servicesite/android/keystore/
+*.keystore
+.DS_Store
