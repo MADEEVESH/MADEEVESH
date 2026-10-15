@@ -1,0 +1,32 @@
+{
+  "appId": "live.stormbreaker.servicesite",
+  "appName": "ServiceSite",
+  "webDir": "www",
+  "server": {
+    "url": "https://stormbreaker.live/dashboard",
+    "androidScheme": "https",
+    "hostname": "localhost",
+    "errorPath": "error.html",
+    "allowNavigation": ["stormbreaker.live", "*.stormbreaker.live"]
+  },
+  "android": {
+    "appendUserAgent": "ServiceSiteAndroid/1.0",
+    "backgroundColor": "#0C1B2E",
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "launchShowDuration": 1200,
+      "backgroundColor": "#0C1B2E",
+      "showSpinner": false,
+      "androidScaleType": "CENTER_CROP",
+      "splashFullScreen": true,
+      "splashImmersive": true
+    },
+    "StatusBar": {
+      "style": "LIGHT",
+      "backgroundColor": "#0C1B2E"
+    }
+  }
+}
